@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+.main_add{
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      font-weight: normal;
+}
+
+.circle_border{
+    border-radius: 10px;
+}
+
+.circle_img{
+    border-radius: 900px;
+    
+}
+
+.field_center{
+      text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+#img_lab{
+    background-color: silver;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: rgba(249,250,213,255);
+}
+#main_div{
+    background-color: white;
+    margin: 30px 100px 30px 100px;
+    padding: 30px;
+}
+
+.submit_btn {
+    background-color: rgba(246,6,16,255);
+    color: white;
+}
+
+legend {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h4 {
+    text-align: center;
+}

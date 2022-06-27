@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="CSS/Style_form.css">
+    <title>Form App</title>
+</head>
+<body>  
+   <form action="file:///D:/Paython_project/index.html">
+    <div id="main_div">
+    <!--the start of the header lines-->
+<header>
+<h4>Application For Permission To Get A Day Off</h4>
+<p><strong>Note: </strong> Form is to be completed at least 21 days prior to date</p>
+</header>
+   <!--the end of the header lines-->
+
+   <!--the start of personnal details--> 
+
+    <fieldset>
+     <legend>personnal details</legend>
+     <label for="Name">Name:</label>
+     <input type="text" id="Name" name="Name" placeholder="Enter name here"><br><br>
+     <label for="Address">Address:</label>
+     <input type="text" id="Address" name="Address" placeholder="Enter Address here"><br><br>
+     <label for="Email">Email:</label>
+     <input type="email" id="Email" name="Email" placeholder="Enter Email here"><br><br>
+     <label for="Phone">Phone Number:</label>
+     <input type="email" id="Phone" name="Phone" placeholder="Enter 10 digit number"><br><br>
+     
+     <p>Gender:</p>
+     <input type="radio" id="Male" name="Gender" value="Male" checked>
+     <label for="Male">Male</label><br>
+     <input type="radio" id="Female" name="Gender" value="Female">
+     <label for="Female">Female</label><br>
+   <br><br>
+
+     <label for="DateExcuse">Date od end of excuse:</label>
+     <input type="date" id="DateExcuse" name="DateExcuse"><br><br>
+
+    </fieldset>
+    <br>
+       <!--the end of personnal details--> 
+
+        <!--the start of check all reasons--> 
+
+    <fieldset>
+      <legend>Check All reasons</legend>
+    <input type="checkbox" id="reason1" name="reason1" value="Cold">
+    <label for="reason1"> I have cold</label><br>
+    <input type="checkbox" id="reason2" name="reason2" value="Vacation">
+    <label for="reason2"> I have a family vacation</label><br>
+    <input type="checkbox" id="reason3" name="reason3" value="Doctor">
+    <label for="reason3"> I need to go to doctor</label><br>
+    <input type="checkbox" id="reason4" name="reason4" value="DayOff" checked>
+    <label for="reason4"> I Work full-time and i desrve a day off</label><br>
+    <input type="checkbox" id="reason5" name="reason5" value="Sick" checked>
+    <label for="reason5"> My parents are sick</label><br>
+
+    </fieldset>
+    <br>
+        <!--the end of check all reasons--> 
+
+   <!--the start of department holidays--> 
+
+   <fieldset>
+    <label for="Dep">Department:</label>
+
+    <select name="Dep" id="Dep">
+      <option value="1">IT</option>
+      <option value="2">Account</option>
+      <option value="3">HR</option>
+    </select> 
+   
+    <label for="Holy">Your holidays are:</label>
+
+    <select name="Holy" id="Holy">
+      <option value="1">Friday and Saturday</option>
+      <option value="2">Monday and Tuesday</option>
+      <option value="3">Wensday only</option>
+    </select> 
+
+   </fieldset>
+   <br>
+  <!--the end of department holidays--> 
+
+   <!--the start of Essay Section--> 
+
+    <fieldset>
+     <legend>Essay Section</legend>
+     <label for="Essay">in 50 words or more explain why you want to get a day off:</label>
+     <br><br>
+     <textarea type="text" id="Essay" name="Essay" cols="40" rows="5" placeholder="Enter text here"></textarea>
+     <br><br>
+     <label for="myFile">Upload any papers needed</label>
+     <input class="submit_btn" type="file" id="myFile" name="myFile" multiple>
+
+    </fieldset>
+ <div style="text-align: center;">
+    <input type="submit" value="Send Your Application" class="submit_btn">
+ </div>
+  </div>
+</form>
+
+</body>
+</html>
